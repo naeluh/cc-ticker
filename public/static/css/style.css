@@ -1,0 +1,172 @@
+body {
+    padding-top: 65px;
+    height: 100vh;
+    background-attachment: fixed;
+    font-family: "Google Sans", Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.coffee {
+    width: 36px;
+    /* margin-right: 5px; */
+    margin-bottom: 14px;
+    margin-top: 10px;
+    transform: rotate(-20deg);
+}
+
+.logo {
+    width: 100%;
+}
+
+.bg-black {
+    background-color: black !important;
+}
+
+.bg-black-alpha {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.icon-sm {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-github {
+    background-image: url('../icons/github.png');
+}
+
+.nav-link {
+    padding: 0px;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: #FFC107 !important;
+}
+
+.stock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 3em;
+    border: 0px solid black;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.symbol {
+    font-size: 1.5rem;
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+.qCode {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    float: right;
+}
+
+@-webkit-keyframes RED-FADE {
+    0% {
+        background-color: #f44336;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@-moz-keyframes RED-FADE {
+    0% {
+        background-color: #f44336;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@-o-keyframes RED-FADE {
+    0% {
+        background-color: #f44336;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes RED-FADE {
+    0% {
+        background-color: #f44336;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@-webkit-keyframes GREEN-FADE {
+    0% {
+        background-color: #8bc34a;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@-moz-keyframes GREEN-FADE {
+    0% {
+        background-color: #8bc34a;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@-o-keyframes GREEN-FADE {
+    0% {
+        background-color: #8bc34a;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes GREEN-FADE {
+    0% {
+        background-color: #8bc34a;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+.tickGreen {
+    -webkit-animation: GREEN-FADE 1s;
+    -moz-animation: GREEN-FADE 1s;
+    -o-animation: GREEN-FADE 1s;
+    animation: GREEN-FADE 1s;
+}
+
+.tickRed {
+    -webkit-animation: RED-FADE 1s;
+    -moz-animation: RED-FADE 1s;
+    -o-animation: RED-FADE 1s;
+    animation: RED-FADE 1s;
+}
