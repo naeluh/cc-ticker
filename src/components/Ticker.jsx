@@ -129,7 +129,7 @@ class Ticker extends React.Component {
               return (
                 <div key={index} className="col-12 col-sm-6 col-xl-4 p-0">
                   <div className={"stock " + this.getTickStyle(coin)}>
-                    <p className="m-0 symbol"><img className="coffee" alt="" title="" src="./static/icons/coffee.svg"/> = {(3 / coin.price_usd).toFixed(5) >= 999 ? (3 / coin.price_usd).toFixed(3) : (3 / coin.price_usd).toFixed(6)} {coin.symbol}<span className="qCode"></span></p>
+                    <p className="m-0 symbol"><img className="coffee" alt="" title="" src="./static/icons/coffee.svg"/> = {(3 / coin.price_usd).toFixed(5) >= 999 ||  coin.symbol.length >= 4 ? (3 / coin.price_usd).toFixed(3) : (3 / coin.price_usd).toFixed(6)} {coin.symbol}<span className="qCode"></span></p>
                   </div>
                 </div>
               )
