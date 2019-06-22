@@ -1,7 +1,7 @@
 <h3>Local deployment:</h3>
 <ol>
   <li>Enter command line</li>
-  <li>Clone repository: <code>git clone https://github.com/adrianiskander/ticker.git</code></li>
+  <li>Clone repository: <code>git clone https://github.com/naeluh/cc-ticker.git</code></li>
   <li>Enter repository: <code>cd ticker</code></li>
   <li>Install packages: <code>npm install</code></li>
   <li>Run with: <code>npm start</code></li>
